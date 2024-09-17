@@ -1,0 +1,123 @@
+.header_navbar{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.2vh 5vw 0 5vw;
+    border-bottom: 1px solid grey;
+}
+.right-navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 85%;
+}
+.left-navbar{
+    width: 15%;
+    height: fit-content;
+}
+.img-logo{
+    width: 5rem;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+    padding: 18px;
+}
+li{
+    float: left;
+}
+.dropbtn{
+    cursor: pointer;
+}
+.active{
+    border-bottom: 5px solid rgb(235, 180, 41);
+}
+li a:hover{
+    border-bottom: 5px solid rgb(235, 180, 41);
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+
+li.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    display: block;
+    background-color: white;
+    color: gray;
+    width: 150px;
+}
+.dropdown-content a:hover{
+    color: black;
+}
+.navbar-btn{
+    color: white;
+    border: none;
+    margin: 0px 5px;
+    padding: 12px 25px ;
+    border-radius: 2px;
+} 
+.login-btn{
+    background-color: rgb(235, 180, 41);
+}
+.submit-btn{
+    background-color: rgb(151, 150, 150);
+}
+
+.minu{
+    display: none;
+}
+@media screen and (max-width :1000px){
+    .header_navbar{
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .img-logo{
+        width: 8rem;
+    }
+    .hidden{
+        display: none;
+    }
+    .right-navbar{
+        display: flex;
+        flex-direction: column-reverse;
+        position: absolute;
+        left: 0;
+        top:25vh;
+        overflow: hidden;
+        width: 100%;
+        justify-content: left;
+        align-items: start;
+    }
+    .test{
+        display: none;
+    }
+    .minu{
+        display: block;
+        padding: 9px 15px;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid gray;
+        cursor: pointer;
+    }
+    .minu:hover{
+        background-color: rgb(237, 236, 236);
+    }
+    .navbar-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-btn{
+        overflow: hidden;
+    }
+    
+}

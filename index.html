@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/connect.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/search.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/body.css">
+    <link href="extern.html" rel="import" />
+    <!-- <script src="./assets/js/function.js"></script> -->
+</head>
+<body>
+    <!-- connect section-->
+    <div class="header_connect">
+        <span class="left_connect">
+            <span class="right-space"><i class="fa-solid fa-phone"></i> +962 799139431</span>
+            <span><i class="fa-regular fa-envelope"></i>   yasmin.jaalharasis@gmail.com</span>
+        </span>
+        <span class="right_connect">
+            <i class="fa-brands fa-facebook-f right-space"></i>
+            <i class="fa-brands fa-twitter right-space"></i>
+            <i class="fa-brands fa-linkedin-in right-space"></i>
+            <i class="fa-brands fa-instagram right-space"></i>
+        </span>
+    </div>
+    <!-- <nav></nav> -->
+    <hr>
+    <!-- navbar section-->
+    <div class="header_navbar">
+        <span  class="left-navbar">
+            <img src="./assets/img/logoo.svg" alt="Logo" class="img-logo">
+        </span>
+        <span class="hidden right-navbar">
+            <ul class="navbar-list">
+                <li class="dropdown">
+                    <a class="dropbtn active">Home
+                        <i class="fa fa-caret-down left-space"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Home Style 1</a>
+                        <a href="#">Home Style 2</a>
+                        <a href="#">Home Style 3</a>
+                        <a href="#">Home Style 4</a>
+                        <a href="#">Home Style 5</a>
+                    </div>
+                </li>
+                <li><a>Properties</a></li>
+                <li><a>Property</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">Template
+                        <i class="fa fa-caret-down left-space"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Template 1</a>
+                        <a href="#">Template 2</a>
+                        <a href="#">Template 3</a>
+                        <a href="#">Template 4</a>
+                        <a href="#">Template 5</a>
+                    </div>
+                </li>
+                <li><a>Contact</a></li>
+            </ul>
+            <ul class="navbar-btn">
+                <li>
+                    <button class="navbar-btn login-btn ">Login</button>
+                </li>
+                <li>
+                    <button class="navbar-btn submit-btn">Submit</button>
+                </li>
+            </ul>
+        </span>
+        <button class="minu" onclick="clickme()"><i class="fa-solid fa-bars"></i></button>
+
+    </div>
+    <!-- search section-->
+    <div class="real-estate-search">
+        <div class="real-estate-search-content">
+            <span class="real-estate-title">property Searching Just Got So Easy</span>
+            <span class="real-estate-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi deserunt deleniti, ullam commodi sit ipsam laboriosam velit adipisci quibusdam aliquam teneturo!
+            </span>
+            <div class="real-estate-search-bar">
+                <button class="search-icon"><i class="fa-solid fa-bars"></i></button>
+
+                <input type="text" id="keyword" name="keyword" placeholder="Key word">
+                <select id="city" name="city" placeholder="Select your city">
+                    <option value="city">City</option>
+                    <option value="amman">Amman</option>
+                    <option value="aqaba">Aqaba</option>
+                    <option value="tafilah">Tafilah</option>
+                </select>
+                <select id="status" name="status" placeholder="-Status-">
+                    <option value="status">Status</option>
+                    <option value="rent">Rent</option>
+                </select>
+                <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

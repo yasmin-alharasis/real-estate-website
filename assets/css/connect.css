@@ -1,0 +1,41 @@
+.header_connect{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5vw;
+    color: grey;
+}
+.left_connect{
+    padding:15px;
+    width: 85%;
+}
+.right_connect{
+    width: 15%;
+    padding:15px;
+    display: flex;
+    justify-content: end;
+
+}
+.right-space{
+    padding-right:20px;
+}
+.left-space{
+    padding-left:10px;
+}
+@media screen and (max-width :1000px){
+    .header_connect{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .left_connect{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .right_connect{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
